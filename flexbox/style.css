@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(0, 0%, 95%);
+    width: 1440px;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+main{
+    width: 50%;
+    margin: auto;
+    margin-top: 25vh;
+    margin-bottom: 25vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+}
+
+main h1{
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 700;
+    margin-bottom: 0;
+    color: hsl(0, 0%, 95%);
+}
+
+main p{
+    font-size: 15px;
+    justify-content: left;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+main button{
+    padding: 10px 20px;
+    font-size: 15px;
+    font-weight: 400;
+    margin: 2em 0em 2em 0em;
+    cursor: pointer;
+}
+
+main .left{
+    background-color: hsl(31, 77%, 52%);
+    padding: 2em 1em 2em 2em;
+    height: 100%;
+    width: 480px;
+    border-bottom-left-radius: 7px;
+    border-top-left-radius: 7px;
+}
+
+main .left h1{
+    padding: 1em 0em 1em 0em;
+}
+
+main .left p{
+    padding: 0em 0em 2em 0em;
+}
+
+main .left button{
+    color: hsl(31, 77%, 52%);
+    background: hsl(0, 0%, 95%);
+    border: .25rem solid hsl(0, 0%, 95%);
+    border-radius: 25px;
+    position: relative;
+}
+
+main .mid{
+    background-color: hsl(184, 100%, 22%);
+    padding: 2em 1em 2em 2em;
+    height: 100%;
+    width: 480px;
+}
+
+main .mid h1{
+    padding: 1em 0em 1em 0em;
+}
+
+main .mid p{
+    padding: 0em 0em 2em 0em;
+}
+
+main .mid button{
+    color: hsl(184, 100%, 22%);
+    background: hsl(0, 0%, 95%);
+    border: .25rem solid hsl(0, 0%, 95%);
+    border-radius: 25px;
+    position: relative;
+}
+
+main .right{
+    background-color: hsl(179, 100%, 13%);
+    padding: 2em 1em 2em 2em;
+    height: 100%;
+    width: 480px;
+    border-bottom-right-radius: 7px;
+    border-top-right-radius: 7px;
+}
+
+main .right h1{
+    padding: 1em 0em 1em 0em;
+}
+
+main .right p{
+    padding: 0em 0em 2em 0em;
+}
+
+main .right button{
+    color: hsl(179, 100%, 13%);
+    background: hsl(0, 0%, 95%);
+    border: .25rem solid hsl(0, 0%, 95%);
+    border-radius: 25px;
+    position: relative;
+}
